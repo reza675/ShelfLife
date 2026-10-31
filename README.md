@@ -100,19 +100,6 @@ Kasus nol: jika hemat + boros = 0 → tampilkan "Belum ada data"
 
 ---
 
-## Aksesibilitas (WCAG AA)
-
-- Rasio kontras teks utama (#e8f5e9 pada #0f1a14): **~13:1** ✓
-- Rasio kontras aksen (#34d399 pada #0f1a14): **~9.5:1** ✓
-- Rasio kontras muted (#94a3b8 pada #0f1a14): **~5.8:1** ✓
-- Urgensi disampaikan melalui **teks + ikon + warna** (tidak hanya warna)
-- `aria-live="polite"` hanya untuk event tambah/konsumsi/kedaluwarsa
-- Navigasi keyboard penuh; visible focus ring
-- Menghormati `prefers-reduced-motion`
-
----
-
-## Keterbatasan yang Diketahui
 
 - Tidak ada backend — semua data tersimpan di localStorage browser saja (per-device).
 - Hitung mundur diperbarui setiap **60 detik** (bukan real-time per detik) untuk efisiensi.
@@ -125,8 +112,10 @@ Kasus nol: jika hemat + boros = 0 → tampilkan "Belum ada data"
 
 ## Tangkapan Layar
 
-> _(Tambahkan tangkapan layar di sini setelah menjalankan aplikasi)_
-
+![Dashboard ShelfLife](screenshots/dashboard.png)
+![Stok Dapur ShelfLife](screenshots/stokdapur.png)
+![Pakai Dulu ShelfLife](screenshots/pakaidulu.png)
+![Log Aktivitas ShelfLife](screenshots/logaktivitas.png)
+![Pengaturan Data ShelfLife](screenshots/pengaturan.png)
 ---
 
-*Dibuat untuk IBM AI Builders Capstone 2026 · Sustainability & Zero-Waste Track*
